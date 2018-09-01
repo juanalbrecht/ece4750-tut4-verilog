@@ -31,6 +31,8 @@ module tut4_verilog_regincr_RegIncr
   // combinational logic here to model the incrementer logic.
   // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+   assign out <= reg_out + '1;
+
 endmodule
 
 `endif /* TUT4_VERILOG_REGINCR_REG_INCR_V */

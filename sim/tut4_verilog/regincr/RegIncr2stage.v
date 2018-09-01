@@ -36,7 +36,7 @@ module tut4_verilog_regincr_RegIncr2stage
   // registered incrementer here.
   // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
   
-  tut4_verilog_regincr_RegIncr reg_incr_!
+  tut4_verilog_regincr_RegIncr reg_incr_1
   (
     .clk   (clk),
     .reset (reset),

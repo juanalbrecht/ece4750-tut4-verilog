@@ -31,7 +31,15 @@ module tut4_verilog_regincr_RegIncr
   // combinational logic here to model the incrementer logic.
   // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-   assign out <= reg_out + '1;
+  // Combinational logic
+   logic [7:0] temp_wire;
+   
+   always_comb begin
+      temp_wire = reg_out + 1;
+   end
+
+   assign out <= temp_wire;
+      
 
 endmodule
 
